@@ -1,6 +1,0 @@
-setup.py
-navigation_components/__init__.py
-navigation_components.egg-info/PKG-INFO
-navigation_components.egg-info/SOURCES.txt
-navigation_components.egg-info/dependency_links.txt
-navigation_components.egg-info/top_level.txt
