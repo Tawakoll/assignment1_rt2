@@ -108,12 +108,8 @@ private:
       goal_handle->publish_feedback(feedback);
       geometry_msgs::msg::Twist cmd;
 
-      if (dist < dist_thresh_) 
+      if (dist < dist_thresh_ && std::abs(err_ang) < 0.3)
       {
-        if (std::abs(err_ang) > 0.3) {
-        cmd.linear.x = 0.0;
-        cmd.angular.z = kp_ang_ * err_ang;
-      }
         break;
 
       }
