@@ -13,23 +13,34 @@ find_package(geometry_msgs REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(tf2 REQUIRED)
 find_package(tf2_ros REQUIRED)
-find_package(custom_interfaces REQUIRED) 
+find_package(rosidl_default_generators REQUIRED)
+find_package(action_msgs REQUIRED)
 
-add_library(nav_server_component SHARED src/nav_server.cpp)
+rosidl_generate_interfaces(${PROJECT_NAME}
+  "action/Navigate.action"
+  DEPENDENCIES action_msgs
+)
+
+add_library(nav_server_component SHARED src/nav_server_component.cpp)
 target_include_directories(nav_server_component PRIVATE include)
 ament_target_dependencies(nav_server_component
-  rclcpp rclcpp_components rclcpp_action geometry_msgs tf2 tf2_ros custom_interfaces)
+  rclcpp rclcpp_components rclcpp_action geometry_msgs tf2 tf2_ros)
 rclcpp_components_register_node(nav_server_component
   PLUGIN "NavServer"
   EXECUTABLE nav_server_node)
 
-add_library(nav_client_component SHARED src/nav_client.cpp)
+rosidl_get_typesupport_target(cpp_typesupport_target ${PROJECT_NAME} "rosidl_typesupport_cpp")
+target_link_libraries(nav_server_component "${cpp_typesupport_target}")
+
+add_library(nav_client_component SHARED src/nav_client_component.cpp)
 target_include_directories(nav_client_component PRIVATE include)
 ament_target_dependencies(nav_client_component
-  rclcpp rclcpp_components rclcpp_action geometry_msgs std_msgs custom_interfaces)
+  rclcpp rclcpp_components rclcpp_action geometry_msgs std_msgs)
 rclcpp_components_register_node(nav_client_component
   PLUGIN "NavClient"
   EXECUTABLE nav_client_node)
+
+target_link_libraries(nav_client_component "${cpp_typesupport_target}")
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

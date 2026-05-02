@@ -9,12 +9,14 @@
 #include <tf2_ros/buffer.h>
 #include <tf2/utils.h>
 
-#include "custom_interfaces/actions/navigate.hpp"
+#include "navigation_components/action/navigate.hpp"
 
+using std::placeholders::_1;
+using std::placeholders::_2;
 class NavServer : public rclcpp::Node
 {
 public:
-  using Navigate = custom_interfaces::action::Navigate;
+  using Navigate = navigation_components::action::Navigate;
   using GoalHandle = rclcpp_action::ServerGoalHandle<Navigate>;
 
   NavServer(const rclcpp::NodeOptions & options)

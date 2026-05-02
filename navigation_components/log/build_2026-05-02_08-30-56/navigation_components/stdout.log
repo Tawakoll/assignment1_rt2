@@ -1,0 +1,273 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_components: 28.1.11 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+-- Found rclcpp_action: 28.1.11 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Found tf2: 0.36.14 (/opt/ros/jazzy/share/tf2/cmake)
+-- Found tf2_ros: 0.36.19 (/opt/ros/jazzy/share/tf2_ros/cmake)
+-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+-- Found PythonExtra: /usr/bin/python3  
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/build/navigation_components/rosidl_generator_c>;$<BUILD_INTERFACE:/home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/build/navigation_components/rosidl_typesupport_fastrtps_c>;$<BUILD_INTERFACE:/home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/build/navigation_components/rosidl_generator_cpp>;$<BUILD_INTERFACE:/home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/build/navigation_components/rosidl_typesupport_fastrtps_cpp>;$<BUILD_INTERFACE:/home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/build/navigation_components/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/build/navigation_components/rosidl_typesupport_introspection_cpp>;/home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/build/navigation_components/rosidl_generator_c;/home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/build/navigation_components/rosidl_generator_py;/home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (5.5s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/build/navigation_components
+[  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[  4%] [32mBuilding CXX object CMakeFiles/nav_client_node.dir/rclcpp_components/node_main_nav_client_node.cpp.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/nav_server_node.dir/rclcpp_components/node_main_nav_server_node.cpp.o[0m
+[  7%] Built target ament_cmake_python_copy_navigation_components
+[  7%] Built target navigation_components__rosidl_generator_type_description
+[  9%] [34m[1mGenerating C code for ROS interfaces[0m
+[ 11%] [34m[1mGenerating C++ code for ROS interfaces[0m
+running egg_info
+creating navigation_components.egg-info
+writing navigation_components.egg-info/PKG-INFO
+writing dependency_links to navigation_components.egg-info/dependency_links.txt
+writing top-level names to navigation_components.egg-info/top_level.txt
+writing manifest file 'navigation_components.egg-info/SOURCES.txt'
+reading manifest file 'navigation_components.egg-info/SOURCES.txt'
+writing manifest file 'navigation_components.egg-info/SOURCES.txt'
+[ 11%] Built target ament_cmake_python_build_navigation_components_egg
+[ 14%] [32mBuilding C object CMakeFiles/navigation_components__rosidl_generator_c.dir/rosidl_generator_c/navigation_components/action/detail/navigate__type_support.c.o[0m
+[ 16%] [32mBuilding C object CMakeFiles/navigation_components__rosidl_generator_c.dir/rosidl_generator_c/navigation_components/action/detail/navigate__functions.c.o[0m
+[ 19%] [32mBuilding C object CMakeFiles/navigation_components__rosidl_generator_c.dir/rosidl_generator_c/navigation_components/action/detail/navigate__description.c.o[0m
+[ 19%] Built target navigation_components__cpp
+[ 21%] [32m[1mLinking C shared library libnavigation_components__rosidl_generator_c.so[0m
+[ 21%] Built target navigation_components__rosidl_generator_c
+[ 26%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 26%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 28%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 30%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 33%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 35%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/navigation_components__rosidl_typesupport_c.dir/rosidl_typesupport_c/navigation_components/action/navigate__type_support.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/navigation_components__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/navigation_components/action/navigate__type_support.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/navigation_components__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/navigation_components/action/detail/navigate__type_support.cpp.o[0m
+[ 45%] [32m[1mLinking CXX shared library libnavigation_components__rosidl_typesupport_c.so[0m
+[ 47%] [32mBuilding C object CMakeFiles/navigation_components__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/navigation_components/action/detail/navigate__type_support.c.o[0m
+[ 47%] Built target navigation_components__rosidl_typesupport_c
+[ 50%] [32m[1mLinking C shared library libnavigation_components__rosidl_typesupport_introspection_c.so[0m
+[ 50%] Built target navigation_components__rosidl_typesupport_introspection_c
+[ 52%] [32mBuilding CXX object CMakeFiles/navigation_components__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/navigation_components/action/detail/dds_fastrtps/navigate__type_support.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/navigation_components__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/navigation_components/action/detail/navigate__type_support_c.cpp.o[0m
+[ 57%] [32m[1mLinking CXX shared library libnavigation_components__rosidl_typesupport_cpp.so[0m
+[ 57%] Built target navigation_components__rosidl_typesupport_cpp
+[ 59%] [32mBuilding CXX object CMakeFiles/nav_client_component.dir/src/nav_client_component.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/nav_server_component.dir/src/nav_server_component.cpp.o[0m
+[ 64%] [32m[1mLinking CXX shared library libnavigation_components__rosidl_typesupport_introspection_cpp.so[0m
+[ 66%] [32m[1mLinking CXX shared library libnavigation_components__rosidl_typesupport_fastrtps_c.so[0m
+[ 66%] Built target navigation_components__rosidl_typesupport_introspection_cpp
+[ 66%] Built target navigation_components__rosidl_typesupport_fastrtps_c
+[ 69%] [32m[1mLinking CXX shared library libnavigation_components__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 69%] Built target navigation_components__rosidl_typesupport_fastrtps_cpp
+[ 69%] Built target navigation_components
+[ 71%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 71%] Built target navigation_components__py
+[ 73%] [32mBuilding C object CMakeFiles/navigation_components__rosidl_generator_py.dir/rosidl_generator_py/navigation_components/action/_navigate_s.c.o[0m
+[ 76%] [32m[1mLinking C shared library libnavigation_components__rosidl_generator_py.so[0m
+[ 78%] [32m[1mLinking CXX executable nav_server_node[0m
+[ 80%] [32m[1mLinking CXX executable nav_client_node[0m
+[ 80%] Built target navigation_components__rosidl_generator_py
+[ 83%] [32mBuilding C object CMakeFiles/navigation_components_s__rosidl_typesupport_c.dir/rosidl_generator_py/navigation_components/_navigation_components_s.ep.rosidl_typesupport_c.c.o[0m
+[ 85%] [32mBuilding C object CMakeFiles/navigation_components_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/navigation_components/_navigation_components_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/navigation_components_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/navigation_components/_navigation_components_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 88%] Built target nav_server_node
+[ 88%] Built target nav_client_node
+[ 90%] [32m[1mLinking C shared module rosidl_generator_py/navigation_components/navigation_components_s__rosidl_typesupport_c.so[0m
+[ 92%] [32m[1mLinking C shared module rosidl_generator_py/navigation_components/navigation_components_s__rosidl_typesupport_introspection_c.so[0m
+[ 95%] [32m[1mLinking C shared module rosidl_generator_py/navigation_components/navigation_components_s__rosidl_typesupport_fastrtps_c.so[0m
+[ 95%] Built target navigation_components_s__rosidl_typesupport_introspection_c
+[ 95%] Built target navigation_components_s__rosidl_typesupport_c
+[ 95%] Built target navigation_components_s__rosidl_typesupport_fastrtps_c
+[ 97%] [32m[1mLinking CXX shared library libnav_server_component.so[0m
+[ 97%] Built target nav_server_component
+[100%] [32m[1mLinking CXX shared library libnav_client_component.so[0m
+[100%] Built target nav_client_component
+-- Install configuration: ""
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/ament_index/resource_index/rosidl_interfaces/navigation_components
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/action/Navigate.json
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/msg
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/action
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/action/navigate.h
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/action/detail
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/action/detail/navigate__type_support.c
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/action/detail/navigate__functions.c
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/action/detail/navigate__struct.h
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/action/detail/navigate__functions.h
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/action/detail/navigate__description.c
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/action/detail/navigate__type_support.h
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/environment/library_path.sh
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/environment/library_path.dsv
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/libnavigation_components__rosidl_generator_c.so
+-- Set non-toolchain portion of runtime path of "/home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/libnavigation_components__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components
+-- Up-to-date: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/msg
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/action
+-- Up-to-date: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/action/detail
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/action/detail/navigate__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/libnavigation_components__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/libnavigation_components__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components
+-- Up-to-date: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/msg
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Up-to-date: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/action
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/action/navigate.hpp
+-- Up-to-date: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/action/detail
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/action/detail/navigate__type_support.hpp
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/action/detail/navigate__traits.hpp
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/action/detail/navigate__builder.hpp
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/action/detail/navigate__struct.hpp
+-- Up-to-date: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components
+-- Up-to-date: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/msg
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/action
+-- Up-to-date: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/action/detail
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/action/detail/navigate__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/action/detail/dds_fastrtps
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/libnavigation_components__rosidl_typesupport_fastrtps_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/libnavigation_components__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components
+-- Up-to-date: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/msg
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/action
+-- Up-to-date: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/action/detail
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/action/detail/navigate__type_support.c
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/action/detail/navigate__rosidl_typesupport_introspection_c.h
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/libnavigation_components__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/libnavigation_components__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/libnavigation_components__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/libnavigation_components__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components
+-- Up-to-date: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/action
+-- Up-to-date: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/action/detail
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/action/detail/navigate__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/action/detail/navigate__type_support.cpp
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/libnavigation_components__rosidl_typesupport_introspection_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/libnavigation_components__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/libnavigation_components__rosidl_typesupport_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/libnavigation_components__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/environment/pythonpath.sh
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/environment/pythonpath.dsv
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/python3.12/site-packages/navigation_components-0.0.0-py3.12.egg-info
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/python3.12/site-packages/navigation_components-0.0.0-py3.12.egg-info/SOURCES.txt
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/python3.12/site-packages/navigation_components-0.0.0-py3.12.egg-info/top_level.txt
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/python3.12/site-packages/navigation_components-0.0.0-py3.12.egg-info/PKG-INFO
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/python3.12/site-packages/navigation_components-0.0.0-py3.12.egg-info/dependency_links.txt
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/python3.12/site-packages/navigation_components
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/python3.12/site-packages/navigation_components/navigation_components_s__rosidl_typesupport_c.so
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/python3.12/site-packages/navigation_components/navigation_components_s__rosidl_typesupport_introspection_c.so
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/python3.12/site-packages/navigation_components/_navigation_components_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/python3.12/site-packages/navigation_components/navigation_components_s__rosidl_typesupport_fastrtps_c.so
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/python3.12/site-packages/navigation_components/_navigation_components_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/python3.12/site-packages/navigation_components/action
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/python3.12/site-packages/navigation_components/action/_navigate.py
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/python3.12/site-packages/navigation_components/action/_navigate_s.c
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/python3.12/site-packages/navigation_components/action/__init__.py
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/python3.12/site-packages/navigation_components/__init__.py
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/python3.12/site-packages/navigation_components/_navigation_components_s.ep.rosidl_typesupport_c.c
+Listing '/home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/python3.12/site-packages/navigation_components'...
+Compiling '/home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/python3.12/site-packages/navigation_components/__init__.py'...
+Listing '/home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/python3.12/site-packages/navigation_components/action'...
+Compiling '/home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/python3.12/site-packages/navigation_components/action/__init__.py'...
+Compiling '/home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/python3.12/site-packages/navigation_components/action/_navigate.py'...
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/python3.12/site-packages/navigation_components/navigation_components_s__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/python3.12/site-packages/navigation_components/navigation_components_s__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/python3.12/site-packages/navigation_components/navigation_components_s__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/python3.12/site-packages/navigation_components/navigation_components_s__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/python3.12/site-packages/navigation_components/navigation_components_s__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/python3.12/site-packages/navigation_components/navigation_components_s__rosidl_typesupport_c.so" to ""
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/libnavigation_components__rosidl_generator_py.so
+-- Set non-toolchain portion of runtime path of "/home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/libnavigation_components__rosidl_generator_py.so" to ""
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/action/Navigate.idl
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/action/Navigate.action
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/navigation_components/nav_server_node
+-- Set non-toolchain portion of runtime path of "/home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/navigation_components/nav_server_node" to ""
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/navigation_components/nav_client_node
+-- Set non-toolchain portion of runtime path of "/home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/navigation_components/nav_client_node" to ""
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/libnav_server_component.so
+-- Set non-toolchain portion of runtime path of "/home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/libnav_server_component.so" to ""
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/libnav_client_component.so
+-- Set non-toolchain portion of runtime path of "/home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/libnav_client_component.so" to ""
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/navigation_components/ui_node.py
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/launch
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/launch/nav_comp.launch.py
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/ament_index/resource_index/package_run_dependencies/navigation_components
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/ament_index/resource_index/parent_prefix_path/navigation_components
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/environment/ament_prefix_path.sh
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/environment/ament_prefix_path.dsv
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/environment/path.sh
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/environment/path.dsv
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/local_setup.bash
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/local_setup.sh
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/local_setup.zsh
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/local_setup.dsv
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/package.dsv
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/ament_index/resource_index/packages/navigation_components
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/cmake/export_navigation_components__rosidl_generator_cExport.cmake
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/cmake/export_navigation_components__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/cmake/export_navigation_components__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/cmake/export_navigation_components__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/cmake/export_navigation_components__rosidl_generator_cppExport.cmake
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/cmake/export_navigation_components__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/cmake/export_navigation_components__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/cmake/navigation_components__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/cmake/navigation_components__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/cmake/navigation_components__rosidl_typesupport_cExport.cmake
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/cmake/navigation_components__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/cmake/navigation_components__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/cmake/navigation_components__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/cmake/navigation_components__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/cmake/navigation_components__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/cmake/export_navigation_components__rosidl_generator_pyExport.cmake
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/cmake/export_navigation_components__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/ament_index/resource_index/rclcpp_components/navigation_components
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/cmake/navigation_componentsConfig.cmake
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/cmake/navigation_componentsConfig-version.cmake
+-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/package.xml

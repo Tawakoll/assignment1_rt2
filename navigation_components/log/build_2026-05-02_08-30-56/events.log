@@ -1,0 +1,476 @@
+[0.000000] (-) TimerEvent: {}
+[0.000336] (navigation_components) JobQueued: {'identifier': 'navigation_components', 'dependencies': OrderedDict()}
+[0.000788] (navigation_components) JobStarted: {'identifier': 'navigation_components'}
+[0.013407] (navigation_components) JobProgress: {'identifier': 'navigation_components', 'progress': 'cmake'}
+[0.017293] (navigation_components) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components'], 'cwd': '/home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/build/navigation_components', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'GZ_SIM_RESOURCE_PATH': '/home/ubuntu/gazebo_models', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_launch_vendor/share/gz:/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': '01d4c3af6fad', 'GIT_ASKPASS': '/root/.vscode-server/bin/034f571df509819cc10b0c8129f66ef77a542f0e/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_launch_vendor/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/root/.vscode-server/bin/034f571df509819cc10b0c8129f66ef77a542f0e/bin/helpers/browser.sh', 'HOME': '/root', 'OLDPWD': '/home/ubuntu/ros_ws/src/assignment1_rt2', 'TERM_PROGRAM_VERSION': '1.118.1', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-61edb7ae-2a9e-433e-94c0-a3bbf704093a.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/034f571df509819cc10b0c8129f66ef77a542f0e/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/034f571df509819cc10b0c8129f66ef77a542f0e/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/root/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-93f75c32-8e65-4c9b-b13b-1c9b4fa5f42c.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/root/.vscode-server/bin/034f571df509819cc10b0c8129f66ef77a542f0e/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/root/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'REMOTE_CONTAINERS_SOCKETS': '[]', 'DISPLAY': 'host.docker.internal:0.0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/root/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-dd5a2442b8a3fe16.txt', 'LANG': 'C.UTF-8', 'PYTHONSTARTUP': '/root/.vscode-server/data/User/workspaceStorage/751ab26010835f559dc5e2d23a80919a/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-9e06cfcf57.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/build/navigation_components', 'LC_ALL': 'C.UTF-8', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_launch_vendor:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.098425] (-) TimerEvent: {}
+[0.198855] (-) TimerEvent: {}
+[0.237528] (navigation_components) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.299064] (-) TimerEvent: {}
+[0.376062] (navigation_components) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.399264] (-) TimerEvent: {}
+[0.422202] (navigation_components) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.499456] (-) TimerEvent: {}
+[0.586451] (navigation_components) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.599563] (navigation_components) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.599861] (-) TimerEvent: {}
+[0.601095] (navigation_components) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.603070] (navigation_components) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.618994] (navigation_components) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.699997] (-) TimerEvent: {}
+[0.792416] (navigation_components) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.800151] (-) TimerEvent: {}
+[0.802861] (navigation_components) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.803422] (navigation_components) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.804281] (navigation_components) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.841128] (navigation_components) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.900323] (-) TimerEvent: {}
+[1.000718] (-) TimerEvent: {}
+[1.067324] (navigation_components) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.100848] (-) TimerEvent: {}
+[1.201231] (-) TimerEvent: {}
+[1.296028] (navigation_components) StdoutLine: {'line': b'-- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.301433] (-) TimerEvent: {}
+[1.401776] (-) TimerEvent: {}
+[1.419039] (navigation_components) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.459842] (navigation_components) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.501938] (-) TimerEvent: {}
+[1.506737] (navigation_components) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.550364] (navigation_components) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.602099] (-) TimerEvent: {}
+[1.702543] (-) TimerEvent: {}
+[1.751541] (navigation_components) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.761775] (navigation_components) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.802680] (-) TimerEvent: {}
+[1.903114] (-) TimerEvent: {}
+[2.003526] (-) TimerEvent: {}
+[2.037215] (navigation_components) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[2.072575] (navigation_components) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[2.103785] (-) TimerEvent: {}
+[2.105339] (navigation_components) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.203952] (-) TimerEvent: {}
+[2.304464] (-) TimerEvent: {}
+[2.329236] (navigation_components) StdoutLine: {'line': b'-- Found rclcpp_components: 28.1.11 (/opt/ros/jazzy/share/rclcpp_components/cmake)\n'}
+[2.404612] (-) TimerEvent: {}
+[2.451488] (navigation_components) StdoutLine: {'line': b'-- Found rclcpp_action: 28.1.11 (/opt/ros/jazzy/share/rclcpp_action/cmake)\n'}
+[2.504803] (-) TimerEvent: {}
+[2.593810] (navigation_components) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[2.604971] (-) TimerEvent: {}
+[2.675847] (navigation_components) StdoutLine: {'line': b'-- Found tf2: 0.36.14 (/opt/ros/jazzy/share/tf2/cmake)\n'}
+[2.687392] (navigation_components) StdoutLine: {'line': b'-- Found tf2_ros: 0.36.19 (/opt/ros/jazzy/share/tf2_ros/cmake)\n'}
+[2.705100] (-) TimerEvent: {}
+[2.765029] (navigation_components) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[2.805279] (-) TimerEvent: {}
+[2.818144] (navigation_components) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[2.905427] (-) TimerEvent: {}
+[3.005763] (-) TimerEvent: {}
+[3.106141] (-) TimerEvent: {}
+[3.206493] (-) TimerEvent: {}
+[3.306847] (-) TimerEvent: {}
+[3.407176] (-) TimerEvent: {}
+[3.482305] (navigation_components) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[3.507367] (-) TimerEvent: {}
+[3.607728] (-) TimerEvent: {}
+[3.708062] (-) TimerEvent: {}
+[3.808563] (-) TimerEvent: {}
+[3.908932] (-) TimerEvent: {}
+[4.009282] (-) TimerEvent: {}
+[4.109576] (-) TimerEvent: {}
+[4.209916] (-) TimerEvent: {}
+[4.310298] (-) TimerEvent: {}
+[4.326019] (navigation_components) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.410449] (-) TimerEvent: {}
+[4.510796] (-) TimerEvent: {}
+[4.611168] (-) TimerEvent: {}
+[4.646602] (navigation_components) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.656113] (navigation_components) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[4.711352] (-) TimerEvent: {}
+[4.810670] (navigation_components) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[4.811480] (-) TimerEvent: {}
+[4.911857] (-) TimerEvent: {}
+[5.012279] (-) TimerEvent: {}
+[5.112625] (-) TimerEvent: {}
+[5.212926] (-) TimerEvent: {}
+[5.298622] (navigation_components) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[5.313061] (-) TimerEvent: {}
+[5.360249] (navigation_components) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[5.413225] (-) TimerEvent: {}
+[5.448040] (navigation_components) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[5.449080] (navigation_components) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/build/navigation_components/rosidl_generator_c>;$<BUILD_INTERFACE:/home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/build/navigation_components/rosidl_typesupport_fastrtps_c>;$<BUILD_INTERFACE:/home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/build/navigation_components/rosidl_generator_cpp>;$<BUILD_INTERFACE:/home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/build/navigation_components/rosidl_typesupport_fastrtps_cpp>;$<BUILD_INTERFACE:/home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/build/navigation_components/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/build/navigation_components/rosidl_typesupport_introspection_cpp>;/home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/build/navigation_components/rosidl_generator_c;/home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/build/navigation_components/rosidl_generator_py;/home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/include\n'}
+[5.449249] (navigation_components) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[5.452951] (navigation_components) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[5.453152] (navigation_components) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[5.458957] (navigation_components) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.462598] (navigation_components) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[5.482124] (navigation_components) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[5.482332] (navigation_components) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[5.486233] (navigation_components) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.493628] (navigation_components) StdoutLine: {'line': b'-- Configuring done (5.5s)\n'}
+[5.513389] (-) TimerEvent: {}
+[5.613761] (-) TimerEvent: {}
+[5.641984] (navigation_components) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[5.668405] (navigation_components) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/build/navigation_components\n'}
+[5.682701] (navigation_components) CommandEnded: {'returncode': 0}
+[5.684477] (navigation_components) JobProgress: {'identifier': 'navigation_components', 'progress': 'build'}
+[5.684566] (navigation_components) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/build/navigation_components', '--', '-j12', '-l12'], 'cwd': '/home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/build/navigation_components', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'GZ_SIM_RESOURCE_PATH': '/home/ubuntu/gazebo_models', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_launch_vendor/share/gz:/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': '01d4c3af6fad', 'GIT_ASKPASS': '/root/.vscode-server/bin/034f571df509819cc10b0c8129f66ef77a542f0e/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_launch_vendor/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/root/.vscode-server/bin/034f571df509819cc10b0c8129f66ef77a542f0e/bin/helpers/browser.sh', 'HOME': '/root', 'OLDPWD': '/home/ubuntu/ros_ws/src/assignment1_rt2', 'TERM_PROGRAM_VERSION': '1.118.1', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-61edb7ae-2a9e-433e-94c0-a3bbf704093a.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/034f571df509819cc10b0c8129f66ef77a542f0e/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/034f571df509819cc10b0c8129f66ef77a542f0e/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/root/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-93f75c32-8e65-4c9b-b13b-1c9b4fa5f42c.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/root/.vscode-server/bin/034f571df509819cc10b0c8129f66ef77a542f0e/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/root/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'REMOTE_CONTAINERS_SOCKETS': '[]', 'DISPLAY': 'host.docker.internal:0.0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/root/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-dd5a2442b8a3fe16.txt', 'LANG': 'C.UTF-8', 'PYTHONSTARTUP': '/root/.vscode-server/data/User/workspaceStorage/751ab26010835f559dc5e2d23a80919a/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-9e06cfcf57.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/build/navigation_components', 'LC_ALL': 'C.UTF-8', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_launch_vendor:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[5.713962] (-) TimerEvent: {}
+[5.769776] (navigation_components) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[5.773086] (navigation_components) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object CMakeFiles/nav_client_node.dir/rclcpp_components/node_main_nav_client_node.cpp.o\x1b[0m\n'}
+[5.773534] (navigation_components) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/nav_server_node.dir/rclcpp_components/node_main_nav_server_node.cpp.o\x1b[0m\n'}
+[5.790909] (navigation_components) StdoutLine: {'line': b'[  7%] Built target ament_cmake_python_copy_navigation_components\n'}
+[5.814088] (-) TimerEvent: {}
+[5.914474] (-) TimerEvent: {}
+[6.014849] (-) TimerEvent: {}
+[6.015519] (navigation_components) StdoutLine: {'line': b'[  7%] Built target navigation_components__rosidl_generator_type_description\n'}
+[6.036956] (navigation_components) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[6.054615] (navigation_components) StdoutLine: {'line': b'[ 11%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[6.115004] (-) TimerEvent: {}
+[6.115781] (navigation_components) StdoutLine: {'line': b'running egg_info\n'}
+[6.117489] (navigation_components) StdoutLine: {'line': b'creating navigation_components.egg-info\n'}
+[6.156366] (navigation_components) StdoutLine: {'line': b'writing navigation_components.egg-info/PKG-INFO\n'}
+[6.156798] (navigation_components) StdoutLine: {'line': b'writing dependency_links to navigation_components.egg-info/dependency_links.txt\n'}
+[6.157174] (navigation_components) StdoutLine: {'line': b'writing top-level names to navigation_components.egg-info/top_level.txt\n'}
+[6.157493] (navigation_components) StdoutLine: {'line': b"writing manifest file 'navigation_components.egg-info/SOURCES.txt'\n"}
+[6.215153] (-) TimerEvent: {}
+[6.263516] (navigation_components) StdoutLine: {'line': b"reading manifest file 'navigation_components.egg-info/SOURCES.txt'\n"}
+[6.264637] (navigation_components) StdoutLine: {'line': b"writing manifest file 'navigation_components.egg-info/SOURCES.txt'\n"}
+[6.315388] (-) TimerEvent: {}
+[6.317348] (navigation_components) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_build_navigation_components_egg\n'}
+[6.415527] (-) TimerEvent: {}
+[6.515967] (-) TimerEvent: {}
+[6.616367] (-) TimerEvent: {}
+[6.695393] (navigation_components) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/navigation_components__rosidl_generator_c.dir/rosidl_generator_c/navigation_components/action/detail/navigate__type_support.c.o\x1b[0m\n'}
+[6.695793] (navigation_components) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/navigation_components__rosidl_generator_c.dir/rosidl_generator_c/navigation_components/action/detail/navigate__functions.c.o\x1b[0m\n'}
+[6.695925] (navigation_components) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/navigation_components__rosidl_generator_c.dir/rosidl_generator_c/navigation_components/action/detail/navigate__description.c.o\x1b[0m\n'}
+[6.713311] (navigation_components) StdoutLine: {'line': b'[ 19%] Built target navigation_components__cpp\n'}
+[6.716502] (-) TimerEvent: {}
+[6.816994] (-) TimerEvent: {}
+[6.917420] (-) TimerEvent: {}
+[6.927620] (navigation_components) StdoutLine: {'line': b'[ 21%] \x1b[32m\x1b[1mLinking C shared library libnavigation_components__rosidl_generator_c.so\x1b[0m\n'}
+[6.990790] (navigation_components) StdoutLine: {'line': b'[ 21%] Built target navigation_components__rosidl_generator_c\n'}
+[7.011581] (navigation_components) StdoutLine: {'line': b'[ 26%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[7.012196] (navigation_components) StdoutLine: {'line': b'[ 26%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.013610] (navigation_components) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.014143] (navigation_components) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.016231] (navigation_components) StdoutLine: {'line': b'[ 33%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[7.017577] (-) TimerEvent: {}
+[7.017997] (navigation_components) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.117763] (-) TimerEvent: {}
+[7.218372] (-) TimerEvent: {}
+[7.319836] (-) TimerEvent: {}
+[7.420452] (-) TimerEvent: {}
+[7.521199] (-) TimerEvent: {}
+[7.591491] (navigation_components) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/navigation_components__rosidl_typesupport_c.dir/rosidl_typesupport_c/navigation_components/action/navigate__type_support.cpp.o\x1b[0m\n'}
+[7.623781] (-) TimerEvent: {}
+[7.624925] (navigation_components) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/navigation_components__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/navigation_components/action/navigate__type_support.cpp.o\x1b[0m\n'}
+[7.723958] (-) TimerEvent: {}
+[7.787996] (navigation_components) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/navigation_components__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/navigation_components/action/detail/navigate__type_support.cpp.o\x1b[0m\n'}
+[7.790127] (navigation_components) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libnavigation_components__rosidl_typesupport_c.so\x1b[0m\n'}
+[7.812570] (navigation_components) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object CMakeFiles/navigation_components__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/navigation_components/action/detail/navigate__type_support.c.o\x1b[0m\n'}
+[7.825094] (-) TimerEvent: {}
+[7.901309] (navigation_components) StdoutLine: {'line': b'[ 47%] Built target navigation_components__rosidl_typesupport_c\n'}
+[7.925293] (-) TimerEvent: {}
+[7.978212] (navigation_components) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking C shared library libnavigation_components__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[8.025437] (-) TimerEvent: {}
+[8.064127] (navigation_components) StdoutLine: {'line': b'[ 50%] Built target navigation_components__rosidl_typesupport_introspection_c\n'}
+[8.068013] (navigation_components) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/navigation_components__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/navigation_components/action/detail/dds_fastrtps/navigate__type_support.cpp.o\x1b[0m\n'}
+[8.125617] (-) TimerEvent: {}
+[8.136295] (navigation_components) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/navigation_components__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/navigation_components/action/detail/navigate__type_support_c.cpp.o\x1b[0m\n'}
+[8.227804] (-) TimerEvent: {}
+[8.328246] (-) TimerEvent: {}
+[8.428701] (-) TimerEvent: {}
+[8.529209] (-) TimerEvent: {}
+[8.631930] (-) TimerEvent: {}
+[8.734868] (-) TimerEvent: {}
+[8.835356] (-) TimerEvent: {}
+[8.936330] (-) TimerEvent: {}
+[9.036810] (-) TimerEvent: {}
+[9.137354] (-) TimerEvent: {}
+[9.238018] (-) TimerEvent: {}
+[9.310928] (navigation_components) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library libnavigation_components__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[9.338199] (-) TimerEvent: {}
+[9.438758] (-) TimerEvent: {}
+[9.539805] (-) TimerEvent: {}
+[9.560481] (navigation_components) StdoutLine: {'line': b'[ 57%] Built target navigation_components__rosidl_typesupport_cpp\n'}
+[9.623030] (navigation_components) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/nav_client_component.dir/src/nav_client_component.cpp.o\x1b[0m\n'}
+[9.624627] (navigation_components) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/nav_server_component.dir/src/nav_server_component.cpp.o\x1b[0m\n'}
+[9.639950] (-) TimerEvent: {}
+[9.657649] (navigation_components) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libnavigation_components__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[9.726842] (navigation_components) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libnavigation_components__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[9.740130] (-) TimerEvent: {}
+[9.840806] (-) TimerEvent: {}
+[9.878819] (navigation_components) StdoutLine: {'line': b'[ 66%] Built target navigation_components__rosidl_typesupport_introspection_cpp\n'}
+[9.885873] (navigation_components) StdoutLine: {'line': b'[ 66%] Built target navigation_components__rosidl_typesupport_fastrtps_c\n'}
+[9.940965] (-) TimerEvent: {}
+[10.041435] (-) TimerEvent: {}
+[10.141918] (-) TimerEvent: {}
+[10.242516] (-) TimerEvent: {}
+[10.344878] (-) TimerEvent: {}
+[10.445349] (-) TimerEvent: {}
+[10.545871] (-) TimerEvent: {}
+[10.630932] (navigation_components) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libnavigation_components__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[10.647422] (-) TimerEvent: {}
+[10.748008] (-) TimerEvent: {}
+[10.848730] (-) TimerEvent: {}
+[10.853411] (navigation_components) StdoutLine: {'line': b'[ 69%] Built target navigation_components__rosidl_typesupport_fastrtps_cpp\n'}
+[10.911974] (navigation_components) StdoutLine: {'line': b'[ 69%] Built target navigation_components\n'}
+[10.948880] (-) TimerEvent: {}
+[10.979471] (navigation_components) StdoutLine: {'line': b'[ 71%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[11.050115] (-) TimerEvent: {}
+[11.151026] (-) TimerEvent: {}
+[11.251418] (-) TimerEvent: {}
+[11.351931] (-) TimerEvent: {}
+[11.452322] (-) TimerEvent: {}
+[11.552724] (-) TimerEvent: {}
+[11.653206] (-) TimerEvent: {}
+[11.753689] (-) TimerEvent: {}
+[11.854132] (-) TimerEvent: {}
+[11.954507] (-) TimerEvent: {}
+[12.054977] (-) TimerEvent: {}
+[12.155409] (-) TimerEvent: {}
+[12.235235] (navigation_components) StdoutLine: {'line': b'[ 71%] Built target navigation_components__py\n'}
+[12.255550] (-) TimerEvent: {}
+[12.276676] (navigation_components) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding C object CMakeFiles/navigation_components__rosidl_generator_py.dir/rosidl_generator_py/navigation_components/action/_navigate_s.c.o\x1b[0m\n'}
+[12.355734] (-) TimerEvent: {}
+[12.456127] (-) TimerEvent: {}
+[12.556565] (-) TimerEvent: {}
+[12.657057] (-) TimerEvent: {}
+[12.671341] (navigation_components) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking C shared library libnavigation_components__rosidl_generator_py.so\x1b[0m\n'}
+[12.687468] (navigation_components) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX executable nav_server_node\x1b[0m\n'}
+[12.716934] (navigation_components) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX executable nav_client_node\x1b[0m\n'}
+[12.757232] (-) TimerEvent: {}
+[12.768350] (navigation_components) StdoutLine: {'line': b'[ 80%] Built target navigation_components__rosidl_generator_py\n'}
+[12.819601] (navigation_components) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/navigation_components_s__rosidl_typesupport_c.dir/rosidl_generator_py/navigation_components/_navigation_components_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[12.821041] (navigation_components) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/navigation_components_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/navigation_components/_navigation_components_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[12.823446] (navigation_components) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/navigation_components_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/navigation_components/_navigation_components_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[12.857412] (-) TimerEvent: {}
+[12.957887] (-) TimerEvent: {}
+[12.996888] (navigation_components) StdoutLine: {'line': b'[ 88%] Built target nav_server_node\n'}
+[13.034517] (navigation_components) StdoutLine: {'line': b'[ 88%] Built target nav_client_node\n'}
+[13.058082] (-) TimerEvent: {}
+[13.156886] (navigation_components) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/navigation_components/navigation_components_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[13.157507] (navigation_components) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/navigation_components/navigation_components_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[13.158173] (-) TimerEvent: {}
+[13.164463] (navigation_components) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/navigation_components/navigation_components_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[13.232002] (navigation_components) StdoutLine: {'line': b'[ 95%] Built target navigation_components_s__rosidl_typesupport_introspection_c\n'}
+[13.238475] (navigation_components) StdoutLine: {'line': b'[ 95%] Built target navigation_components_s__rosidl_typesupport_c\n'}
+[13.244658] (navigation_components) StdoutLine: {'line': b'[ 95%] Built target navigation_components_s__rosidl_typesupport_fastrtps_c\n'}
+[13.258327] (-) TimerEvent: {}
+[13.358724] (-) TimerEvent: {}
+[13.459117] (-) TimerEvent: {}
+[13.559493] (-) TimerEvent: {}
+[13.659926] (-) TimerEvent: {}
+[13.760406] (-) TimerEvent: {}
+[13.860874] (-) TimerEvent: {}
+[13.961289] (-) TimerEvent: {}
+[14.061691] (-) TimerEvent: {}
+[14.162134] (-) TimerEvent: {}
+[14.262560] (-) TimerEvent: {}
+[14.362949] (-) TimerEvent: {}
+[14.463516] (-) TimerEvent: {}
+[14.564131] (-) TimerEvent: {}
+[14.664556] (-) TimerEvent: {}
+[14.765085] (-) TimerEvent: {}
+[14.865589] (-) TimerEvent: {}
+[14.966101] (-) TimerEvent: {}
+[15.066537] (-) TimerEvent: {}
+[15.166893] (-) TimerEvent: {}
+[15.267248] (-) TimerEvent: {}
+[15.367608] (-) TimerEvent: {}
+[15.468074] (-) TimerEvent: {}
+[15.568575] (-) TimerEvent: {}
+[15.668969] (-) TimerEvent: {}
+[15.769327] (-) TimerEvent: {}
+[15.869745] (-) TimerEvent: {}
+[15.970150] (-) TimerEvent: {}
+[16.070590] (-) TimerEvent: {}
+[16.171006] (-) TimerEvent: {}
+[16.271473] (-) TimerEvent: {}
+[16.371878] (-) TimerEvent: {}
+[16.472260] (-) TimerEvent: {}
+[16.572663] (-) TimerEvent: {}
+[16.673100] (-) TimerEvent: {}
+[16.773547] (-) TimerEvent: {}
+[16.873977] (-) TimerEvent: {}
+[16.974324] (-) TimerEvent: {}
+[16.991222] (navigation_components) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX shared library libnav_server_component.so\x1b[0m\n'}
+[17.074552] (-) TimerEvent: {}
+[17.174952] (-) TimerEvent: {}
+[17.275323] (-) TimerEvent: {}
+[17.375680] (-) TimerEvent: {}
+[17.476033] (-) TimerEvent: {}
+[17.576373] (-) TimerEvent: {}
+[17.676743] (-) TimerEvent: {}
+[17.777160] (-) TimerEvent: {}
+[17.877529] (-) TimerEvent: {}
+[17.885020] (navigation_components) StdoutLine: {'line': b'[ 97%] Built target nav_server_component\n'}
+[17.977648] (-) TimerEvent: {}
+[18.078017] (-) TimerEvent: {}
+[18.178401] (-) TimerEvent: {}
+[18.238475] (navigation_components) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libnav_client_component.so\x1b[0m\n'}
+[18.278618] (-) TimerEvent: {}
+[18.379030] (-) TimerEvent: {}
+[18.479423] (-) TimerEvent: {}
+[18.579813] (-) TimerEvent: {}
+[18.680213] (-) TimerEvent: {}
+[18.780583] (-) TimerEvent: {}
+[18.789795] (navigation_components) StdoutLine: {'line': b'[100%] Built target nav_client_component\n'}
+[18.831297] (navigation_components) CommandEnded: {'returncode': 0}
+[18.832201] (navigation_components) JobProgress: {'identifier': 'navigation_components', 'progress': 'install'}
+[18.846487] (navigation_components) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/build/navigation_components'], 'cwd': '/home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/build/navigation_components', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'GZ_SIM_RESOURCE_PATH': '/home/ubuntu/gazebo_models', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_launch_vendor/share/gz:/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': '01d4c3af6fad', 'GIT_ASKPASS': '/root/.vscode-server/bin/034f571df509819cc10b0c8129f66ef77a542f0e/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_launch_vendor/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/root/.vscode-server/bin/034f571df509819cc10b0c8129f66ef77a542f0e/bin/helpers/browser.sh', 'HOME': '/root', 'OLDPWD': '/home/ubuntu/ros_ws/src/assignment1_rt2', 'TERM_PROGRAM_VERSION': '1.118.1', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-61edb7ae-2a9e-433e-94c0-a3bbf704093a.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/034f571df509819cc10b0c8129f66ef77a542f0e/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/034f571df509819cc10b0c8129f66ef77a542f0e/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/root/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-93f75c32-8e65-4c9b-b13b-1c9b4fa5f42c.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/root/.vscode-server/bin/034f571df509819cc10b0c8129f66ef77a542f0e/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/root/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'REMOTE_CONTAINERS_SOCKETS': '[]', 'DISPLAY': 'host.docker.internal:0.0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/root/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-dd5a2442b8a3fe16.txt', 'LANG': 'C.UTF-8', 'PYTHONSTARTUP': '/root/.vscode-server/data/User/workspaceStorage/751ab26010835f559dc5e2d23a80919a/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-9e06cfcf57.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/build/navigation_components', 'LC_ALL': 'C.UTF-8', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_launch_vendor:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[18.859211] (navigation_components) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.861356] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/ament_index/resource_index/rosidl_interfaces/navigation_components\n'}
+[18.862365] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/action/Navigate.json\n'}
+[18.862792] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components\n'}
+[18.864146] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/msg\n'}
+[18.864486] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/msg/rosidl_generator_c__visibility_control.h\n'}
+[18.864808] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/action\n'}
+[18.865220] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/action/navigate.h\n'}
+[18.865493] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/action/detail\n'}
+[18.865866] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/action/detail/navigate__type_support.c\n'}
+[18.866186] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/action/detail/navigate__functions.c\n'}
+[18.866792] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/action/detail/navigate__struct.h\n'}
+[18.867105] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/action/detail/navigate__functions.h\n'}
+[18.867627] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/action/detail/navigate__description.c\n'}
+[18.868085] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/action/detail/navigate__type_support.h\n'}
+[18.869085] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/environment/library_path.sh\n'}
+[18.869403] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/environment/library_path.dsv\n'}
+[18.870158] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/libnavigation_components__rosidl_generator_c.so\n'}
+[18.871194] (navigation_components) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/libnavigation_components__rosidl_generator_c.so" to ""\n'}
+[18.871358] (navigation_components) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components\n'}
+[18.871522] (navigation_components) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/msg\n'}
+[18.871603] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[18.871940] (navigation_components) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/action\n'}
+[18.872216] (navigation_components) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/action/detail\n'}
+[18.872303] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/action/detail/navigate__rosidl_typesupport_fastrtps_c.h\n'}
+[18.872707] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/libnavigation_components__rosidl_typesupport_fastrtps_c.so\n'}
+[18.873533] (navigation_components) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/libnavigation_components__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[18.873721] (navigation_components) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components\n'}
+[18.873850] (navigation_components) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/msg\n'}
+[18.873947] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[18.874105] (navigation_components) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/action\n'}
+[18.874259] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/action/navigate.hpp\n'}
+[18.874539] (navigation_components) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/action/detail\n'}
+[18.874750] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/action/detail/navigate__type_support.hpp\n'}
+[18.875016] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/action/detail/navigate__traits.hpp\n'}
+[18.875315] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/action/detail/navigate__builder.hpp\n'}
+[18.875543] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/action/detail/navigate__struct.hpp\n'}
+[18.876080] (navigation_components) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components\n'}
+[18.876398] (navigation_components) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/msg\n'}
+[18.876485] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[18.876777] (navigation_components) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/action\n'}
+[18.876882] (navigation_components) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/action/detail\n'}
+[18.876959] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/action/detail/navigate__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[18.877120] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/action/detail/dds_fastrtps\n'}
+[18.877804] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/libnavigation_components__rosidl_typesupport_fastrtps_cpp.so\n'}
+[18.878879] (navigation_components) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/libnavigation_components__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[18.879023] (navigation_components) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components\n'}
+[18.879284] (navigation_components) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/msg\n'}
+[18.879461] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[18.879778] (navigation_components) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/action\n'}
+[18.879887] (navigation_components) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/action/detail\n'}
+[18.879976] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/action/detail/navigate__type_support.c\n'}
+[18.880141] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/action/detail/navigate__rosidl_typesupport_introspection_c.h\n'}
+[18.880507] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/libnavigation_components__rosidl_typesupport_introspection_c.so\n'}
+[18.880610] (-) TimerEvent: {}
+[18.881296] (navigation_components) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/libnavigation_components__rosidl_typesupport_introspection_c.so" to ""\n'}
+[18.881611] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/libnavigation_components__rosidl_typesupport_c.so\n'}
+[18.882148] (navigation_components) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/libnavigation_components__rosidl_typesupport_c.so" to ""\n'}
+[18.882296] (navigation_components) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components\n'}
+[18.882571] (navigation_components) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/action\n'}
+[18.882663] (navigation_components) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/action/detail\n'}
+[18.882741] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/action/detail/navigate__rosidl_typesupport_introspection_cpp.hpp\n'}
+[18.883024] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/include/navigation_components/navigation_components/action/detail/navigate__type_support.cpp\n'}
+[18.883275] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/libnavigation_components__rosidl_typesupport_introspection_cpp.so\n'}
+[18.884328] (navigation_components) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/libnavigation_components__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[18.884632] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/libnavigation_components__rosidl_typesupport_cpp.so\n'}
+[18.885304] (navigation_components) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/libnavigation_components__rosidl_typesupport_cpp.so" to ""\n'}
+[18.885617] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/environment/pythonpath.sh\n'}
+[18.885733] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/environment/pythonpath.dsv\n'}
+[18.885943] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/python3.12/site-packages/navigation_components-0.0.0-py3.12.egg-info\n'}
+[18.887221] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/python3.12/site-packages/navigation_components-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[18.887529] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/python3.12/site-packages/navigation_components-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[18.887863] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/python3.12/site-packages/navigation_components-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[18.888256] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/python3.12/site-packages/navigation_components-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[18.888671] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/python3.12/site-packages/navigation_components\n'}
+[18.889494] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/python3.12/site-packages/navigation_components/navigation_components_s__rosidl_typesupport_c.so\n'}
+[18.890052] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/python3.12/site-packages/navigation_components/navigation_components_s__rosidl_typesupport_introspection_c.so\n'}
+[18.890884] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/python3.12/site-packages/navigation_components/_navigation_components_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[18.891536] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/python3.12/site-packages/navigation_components/navigation_components_s__rosidl_typesupport_fastrtps_c.so\n'}
+[18.893967] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/python3.12/site-packages/navigation_components/_navigation_components_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[18.894436] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/python3.12/site-packages/navigation_components/action\n'}
+[18.895176] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/python3.12/site-packages/navigation_components/action/_navigate.py\n'}
+[18.895609] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/python3.12/site-packages/navigation_components/action/_navigate_s.c\n'}
+[18.896140] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/python3.12/site-packages/navigation_components/action/__init__.py\n'}
+[18.896453] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/python3.12/site-packages/navigation_components/__init__.py\n'}
+[18.896812] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/python3.12/site-packages/navigation_components/_navigation_components_s.ep.rosidl_typesupport_c.c\n'}
+[18.952090] (navigation_components) StdoutLine: {'line': b"Listing '/home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/python3.12/site-packages/navigation_components'...\n"}
+[18.952305] (navigation_components) StdoutLine: {'line': b"Compiling '/home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/python3.12/site-packages/navigation_components/__init__.py'...\n"}
+[18.952433] (navigation_components) StdoutLine: {'line': b"Listing '/home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/python3.12/site-packages/navigation_components/action'...\n"}
+[18.952513] (navigation_components) StdoutLine: {'line': b"Compiling '/home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/python3.12/site-packages/navigation_components/action/__init__.py'...\n"}
+[18.952589] (navigation_components) StdoutLine: {'line': b"Compiling '/home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/python3.12/site-packages/navigation_components/action/_navigate.py'...\n"}
+[18.958975] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/python3.12/site-packages/navigation_components/navigation_components_s__rosidl_typesupport_fastrtps_c.so\n'}
+[18.959705] (navigation_components) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/python3.12/site-packages/navigation_components/navigation_components_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[18.960064] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/python3.12/site-packages/navigation_components/navigation_components_s__rosidl_typesupport_introspection_c.so\n'}
+[18.960880] (navigation_components) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/python3.12/site-packages/navigation_components/navigation_components_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[18.961269] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/python3.12/site-packages/navigation_components/navigation_components_s__rosidl_typesupport_c.so\n'}
+[18.962032] (navigation_components) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/python3.12/site-packages/navigation_components/navigation_components_s__rosidl_typesupport_c.so" to ""\n'}
+[18.962367] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/libnavigation_components__rosidl_generator_py.so\n'}
+[18.962941] (navigation_components) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/libnavigation_components__rosidl_generator_py.so" to ""\n'}
+[18.963199] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/action/Navigate.idl\n'}
+[18.963518] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/action/Navigate.action\n'}
+[18.964205] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/navigation_components/nav_server_node\n'}
+[18.965196] (navigation_components) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/navigation_components/nav_server_node" to ""\n'}
+[18.965493] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/navigation_components/nav_client_node\n'}
+[18.966427] (navigation_components) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/navigation_components/nav_client_node" to ""\n'}
+[18.966672] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/libnav_server_component.so\n'}
+[18.967197] (navigation_components) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/libnav_server_component.so" to ""\n'}
+[18.967315] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/libnav_client_component.so\n'}
+[18.967949] (navigation_components) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/libnav_client_component.so" to ""\n'}
+[18.968235] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/lib/navigation_components/ui_node.py\n'}
+[18.980817] (-) TimerEvent: {}
+[18.988043] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/launch\n'}
+[18.988571] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/launch/nav_comp.launch.py\n'}
+[18.989620] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/ament_index/resource_index/package_run_dependencies/navigation_components\n'}
+[18.990701] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/ament_index/resource_index/parent_prefix_path/navigation_components\n'}
+[18.991186] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/environment/ament_prefix_path.sh\n'}
+[18.991612] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/environment/ament_prefix_path.dsv\n'}
+[18.991958] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/environment/path.sh\n'}
+[18.992315] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/environment/path.dsv\n'}
+[18.992744] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/local_setup.bash\n'}
+[18.993111] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/local_setup.sh\n'}
+[18.993430] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/local_setup.zsh\n'}
+[18.993923] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/local_setup.dsv\n'}
+[18.994328] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/package.dsv\n'}
+[18.995472] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/ament_index/resource_index/packages/navigation_components\n'}
+[18.996659] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/cmake/export_navigation_components__rosidl_generator_cExport.cmake\n'}
+[18.997052] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/cmake/export_navigation_components__rosidl_generator_cExport-noconfig.cmake\n'}
+[18.997608] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/cmake/export_navigation_components__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[18.998092] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/cmake/export_navigation_components__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[18.998474] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/cmake/export_navigation_components__rosidl_generator_cppExport.cmake\n'}
+[18.998815] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/cmake/export_navigation_components__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[18.999223] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/cmake/export_navigation_components__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[18.999580] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/cmake/navigation_components__rosidl_typesupport_introspection_cExport.cmake\n'}
+[19.000094] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/cmake/navigation_components__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[19.000648] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/cmake/navigation_components__rosidl_typesupport_cExport.cmake\n'}
+[19.001088] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/cmake/navigation_components__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[19.001566] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/cmake/navigation_components__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[19.001845] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/cmake/navigation_components__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[19.002270] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/cmake/navigation_components__rosidl_typesupport_cppExport.cmake\n'}
+[19.002608] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/cmake/navigation_components__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[19.002968] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/cmake/export_navigation_components__rosidl_generator_pyExport.cmake\n'}
+[19.003239] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/cmake/export_navigation_components__rosidl_generator_pyExport-noconfig.cmake\n'}
+[19.004115] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/ament_index/resource_index/rclcpp_components/navigation_components\n'}
+[19.004498] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/cmake/rosidl_cmake-extras.cmake\n'}
+[19.004900] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[19.005181] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[19.005522] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[19.005845] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[19.006180] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[19.006505] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[19.006824] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/cmake/navigation_componentsConfig.cmake\n'}
+[19.007142] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/cmake/navigation_componentsConfig-version.cmake\n'}
+[19.007520] (navigation_components) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros_ws/src/assignment1_rt2/navigation_components/install/navigation_components/share/navigation_components/package.xml\n'}
+[19.010970] (navigation_components) CommandEnded: {'returncode': 0}
+[19.039871] (navigation_components) JobEnded: {'identifier': 'navigation_components', 'rc': 0}
+[19.041680] (-) EventReactorShutdown: {}
