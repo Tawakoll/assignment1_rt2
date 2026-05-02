@@ -1,6 +1,6 @@
 #include <rclcpp/rclcpp.hpp>
 #include <rclcpp_action/rclcpp_action.hpp>
-
+#include <tf2_geometry_msgs/tf2_geometry_msgs.hpp>
 #include <geometry_msgs/msg/pose.hpp>
 #include <std_msgs/msg/empty.hpp>
 #include "navigation_components/action/navigate.hpp"
@@ -44,7 +44,7 @@ private:
     goal_msg.y = msg->position.y;
     goal_msg.theta = msg->orientation.z; 
 
-    RCLCPP_INFO(this->get_logger(), "Sending goal: x=%.2f, y=%.2f", goal_msg.x, goal_msg.y);
+    RCLCPP_INFO(this->get_logger(), "Sending goal: x=%.2f, y=%.2f theta=%.2f", goal_msg.x, goal_msg.y, goal_msg.theta);
 
     auto send_goal_options = rclcpp_action::Client<Navigate>::SendGoalOptions();
     send_goal_options.goal_response_callback = std::bind(&NavClient::goal_response_callback, this, _1);
@@ -98,3 +98,6 @@ private:
     }
   }
 };
+
+#include "rclcpp_components/register_node_macro.hpp"
+RCLCPP_COMPONENTS_REGISTER_NODE(NavClient)
